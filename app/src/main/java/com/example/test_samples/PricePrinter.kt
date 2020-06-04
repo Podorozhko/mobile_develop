@@ -1,5 +1,9 @@
 package com.example.test_samples
 
+import com.example.test_samples.model.Cart
+import com.example.test_samples.model.Product
+
+
 interface PricePrinter {
     /**
      * Outputs price in <PRICE>P format.

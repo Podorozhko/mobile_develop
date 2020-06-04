@@ -1,10 +1,21 @@
-package com.example.test_samples
+package com.example.test_samples.presenter
+
+import com.example.test_samples.OrderView
+import com.example.test_samples.model.Product
 
 class ProductsPresenter(
     private val orderView: OrderView
 ) {
-    private val iphoneCase = Product(price = 123.5, discount = 30, productName = "case 1")
-    private val samsungCase = Product(price = 30.5, discount = 5, productName = "case 2")
+    private val iphoneCase = Product(
+        price = 123.5,
+        discount = 30,
+        productName = "case 1"
+    )
+    private val samsungCase = Product(
+        price = 30.5,
+        discount = 5,
+        productName = "case 2"
+    )
 
     private val products = listOf(iphoneCase, samsungCase)
 

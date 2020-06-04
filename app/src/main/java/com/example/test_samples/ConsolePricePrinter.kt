@@ -1,5 +1,7 @@
 package com.example.test_samples
 
+import com.example.test_samples.model.Cart
+import com.example.test_samples.model.Product
 import kotlin.math.truncate
 
 class ConsolePricePrinter: PricePrinter {

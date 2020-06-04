@@ -1,4 +1,4 @@
-package com.example.test_samples
+package com.example.test_samples.model
 
 class Product(
     /**
