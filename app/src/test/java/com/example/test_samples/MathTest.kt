@@ -1,39 +1,45 @@
 package com.example.test_samples
 
-import org.junit.Assert
 import org.junit.Test
 
+import org.junit.Assert.*
+
+/**
+ * Example local unit test, which will execute on the development machine (host).
+ *
+ * See [testing documentation](http://d.android.com/tools/testing).
+ */
 class MathTest {
     @Test
     fun addition_isCorrect() {
-        Assert.assertEquals(4, 2 + 2)
+        assertEquals(4, 2 + 2)
     }
 
     @Test
-    fun incrementTest() {
-        var i = 1
-        i += 1
-        Assert.assertEquals(2, i)
+    fun increment_isCorrect() {
+        assertEquals(3, 2 + 1)
     }
 
     @Test
-    fun divideTest() {
-        var i = 4
-        i /= 2
-        Assert.assertEquals(2, i)
+    fun division_isCorrect() {
+        assertEquals(6, 18 / 3)
     }
 
     @Test
-    fun multiplyTest() {
-        var i = 1
-        i *= 2
-        Assert.assertEquals(2, i)
+    fun multiplication_isCorrect() {
+        assertEquals(6, 2 * 3)
     }
 
     @Test
-    fun substractionTest() {
-        var i = 2
-        i -= 1
-        Assert.assertEquals(1, 1)
+    fun subtraction_isCorrect() {
+        assertEquals(6, 8 - 2)
+    }
+
+    @Test
+    fun example() {
+        val iphoneCase = object {
+
+        }
+//        assertEquals(6, 8 - 2)
     }
 }
